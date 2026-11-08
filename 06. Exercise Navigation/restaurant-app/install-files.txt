@@ -1,0 +1,15 @@
+npx create-expo-app@latest . --template blank
+npm install @react-navigation/native
+npx expo install react-native-screens react-native-safe-area-context
+
+Bottom Tabs
+npm install @react-navigation/bottom-tabs
+
+Native Bottom Tabs Navigator
+npm install @react-navigation/bottom-tabs
+
+Stack Navigator
+npm install @react-navigation/stack
+npx expo install react-native-gesture-handler @react-native-masked-view/masked-view
+
+npm i @expo/vector-icons
