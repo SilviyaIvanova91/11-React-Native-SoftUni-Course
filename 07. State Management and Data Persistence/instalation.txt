@@ -1,0 +1,6 @@
+npx expo install @react-native-async-storage/async-storage
+npm i axios
+npm i -D json-server@0 json-server-auth
+    => packge.json : server: "json-server-auth --watch db.json --port 3001 --host 0.0.0.0"
+    => npm run server
+    => postmen => http:/localhost:3001/users
