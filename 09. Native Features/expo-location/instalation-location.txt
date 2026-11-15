@@ -1,0 +1,10 @@
+npx expo install expo-location
+ > app.json
+    "plugins": [
+      [
+        "expo-location",
+        {
+            "locationWhenInUsePermission": "Allow $(PRODUCT_NAME) to access your location while you are using the app."
+        }
+      ]
+    ]

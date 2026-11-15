@@ -1,0 +1,12 @@
+npx expo install expo-notifications
+> app.json
+     "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/icon.png",
+          "color": "#ffffff",
+          "defaultChannel": "default"
+        }
+      ]
+    ]

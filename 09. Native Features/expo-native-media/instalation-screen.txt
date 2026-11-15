@@ -1,0 +1,43 @@
+npx expo install expo-camera
+-> app.json
+        {
+  "expo": {
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Camera is needed to take awesome pictures and record videos!",
+          "microphonePermission": "Allow $(PRODUCT_NAME) to access your microphone",
+          "recordAudioAndroid": true,
+          "barcodeScannerEnabled": true
+        }
+      ]
+    ]
+  }
+}
+
+
+npx expo install expo-image-picker
+   -> app.json
+   {
+  "expo": {
+    "plugins": [
+     [
+        "expo-image-picker",
+        {
+          "cameraPermission": "Camera access is required to take photos for your profile.",
+           "photosPermission": "The app needs to access your photos to select images"
+        }
+      ]
+      ]}}
+
+    
+npm install @react-navigation/drawer
+
+npx expo install expo-document-picker
+  -> app.json
+  "expo-document-picker"
+
+npx expo install expo-file-system
+
+
