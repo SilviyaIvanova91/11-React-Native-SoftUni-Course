@@ -1,0 +1,66 @@
+// Static sample data - will be replaced with real data later in the course.
+
+export const places = [
+    {
+        id: '1',
+        emoji: '🏰',
+        title: 'Tsarevets Fortress',
+        location: 'Veliko Tarnovo, Bulgaria',
+        category: 'History',
+        date: '12 Nov 2026',
+        rating: 5,
+        description: 'Medieval stronghold on a hill above the Yantra river. Amazing sound and light show at night.',
+    },
+    {
+        id: '2',
+        emoji: '🏖️',
+        title: 'Sunny Beach',
+        location: 'Burgas, Bulgaria',
+        category: 'Beach',
+        date: '28 Oct 2026',
+        rating: 4,
+        description: 'Long sandy beach with warm water. Great for a lazy summer week.',
+    },
+    {
+        id: '3',
+        emoji: '⛰️',
+        title: 'Seven Rila Lakes',
+        location: 'Rila, Bulgaria',
+        category: 'Nature',
+        date: '03 Oct 2026',
+        rating: 5,
+        description: 'Seven glacial lakes, one above the other. The hike to the top is worth every step.',
+    },
+    {
+        id: '4',
+        emoji: '🗼',
+        title: 'Eiffel Tower',
+        location: 'Paris, France',
+        category: 'City',
+        date: '14 Aug 2026',
+        rating: 4,
+        description: 'Iconic view over the city. Go at sunset and stay for the lights.',
+    },
+    {
+        id: '5',
+        emoji: '🍝',
+        title: 'Trattoria da Enzo',
+        location: 'Rome, Italy',
+        category: 'Food',
+        date: '02 Jul 2026',
+        rating: 5,
+        description: 'Tiny family restaurant in Trastevere. The best cacio e pepe ever.',
+    },
+    {
+        id: '6',
+        emoji: '🏛️',
+        title: 'Acropolis',
+        location: 'Athens, Greece',
+        category: 'History',
+        date: '18 May 2026',
+        rating: 4,
+        description: 'Ancient citadel with the Parthenon. Come early to avoid the heat and the crowds.',
+    },
+];
+
+export const categories = ['All', 'Nature', 'City', 'Beach', 'History', 'Food'];
